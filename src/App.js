@@ -1,14 +1,14 @@
 import './App.css';
-import PropTypes from 'prop-types';
-import Big from 'big.js';
+// import PropTypes from 'prop-types';
+// import Big from 'big.js';
 
 function App() {
   return (
     <div className="App">
 
-        <p>
-         Calculator
-        </p>
+      <p>
+        Calculator
+      </p>
 
     </div>
   );
