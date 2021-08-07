@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export default class Button extends React.Component {
   constructor(props) {
@@ -6,16 +7,25 @@ export default class Button extends React.Component {
     this.props = {
       name: '',
       className: '',
-    }
+    };
   }
 
   render() {
+    const { name, className } = this.props;
     return (
-      <button className={this.props.className}>{this.props.name} </button>
-    )
+      <button type="button" className={className}>
+        {name}
+        {' '}
+      </button>
+    );
   }
 }
 
+Button.propTypes = {
+  name: PropTypes.string.isRequired,
+  className: PropTypes.string,
+};
+
 Button.defaultProps = {
-  className: 'button'
+  className: 'button',
 };
