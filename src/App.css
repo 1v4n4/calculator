@@ -1,3 +1,19 @@
-div {
+.button {
   background: yellow;
+  height: 3rem;
+  width: 3rem;
+}
+
+.row {
+  display: flex;
+}
+
+.double {
+  width: 6rem;
+}
+
+.display {
+  background: red;
+  width: 12rem;
+  height: 3rem;
 }
