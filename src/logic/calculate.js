@@ -1,5 +1,5 @@
 import Operate from './operate';
-/* eslint-disable react/no-unused-state */
+
 const Calculate = (btnName, dataObj) => {
   let { total, next, operation } = dataObj;
   const operations = ['+', '*', '-', '/'];
