@@ -1,14 +1,13 @@
 import Big from 'big.js';
 
-const Operate = ( op=null, num1 = null, num2 = null) => {
+const Operate = (num1, op, num2) => {
   let result = 0;
-  const operations = ['+', '-', '*', '/', '%']
-  if (!num2 && op != '%') return num1
-  if (!num1 || !op) return 'Error'
+  const operations = ['+', '-', '*', '/', '%'];
+  if (!num2 && op !== '%') return num1;
+  if (!num1) return 'Error';
   const n1 = new Big(num1);
-  if (num2) {
   const n2 = new Big(num2);
-  }
+
   if (operations.includes(op)) {
     switch (op) {
       case '-':
@@ -28,14 +27,15 @@ const Operate = ( op=null, num1 = null, num2 = null) => {
         }
         break;
       case '%':
-          result = n1.div(100);
+        result = n1.div(100);
+        break;
+      default:
+        result = 0;
     }
     return result.toString();
   }
-  else {
-  return 'Error';
-  }
 
-}
+  return 'Error';
+};
 
 export default Operate;
