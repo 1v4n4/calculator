@@ -29,15 +29,21 @@ const Calculate = (btnName, dataObj) => {
   if (btnName === '.') {
     if (!total) {
       total = '0.';
-    }
+    } else
     if (total && !operation) {
-      total += '.';
-    }
-    if (total && next && operation) {
-      next += '.';
-    }
-    if (total && operation && !next) {
+      const arr = total.split('');
+      console.log(arr);
+      if (!arr.includes('.')) {
+        total += '.';
+      }
+    } else if (!next) {
       next = '0.';
+    } else if (total && next && operation) {
+      const arr1 = next.split('');
+      console.log(arr1);
+      if (!arr1.includes('.')) {
+        next += '.';
+      }
     }
   }
 
@@ -69,7 +75,7 @@ const Calculate = (btnName, dataObj) => {
     if (total && next && operation) {
       total = Operate(total, operation, next);
       next = null;
-      operation = btnName;
+      operation = null;
     }
   }
 
