@@ -44,8 +44,8 @@ export default class App extends React.Component {
 
     return (
       <>
-        <Display result={result}/>
-        <ButtonPanel clickHandler={this.handleClick}/>
+        <Display result={result} />
+        <ButtonPanel clickHandler={this.handleClick} />
 
       </>
     );
