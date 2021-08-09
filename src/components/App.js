@@ -28,23 +28,11 @@ export default class App extends React.Component {
   }
 
   render() {
-    const { total, next, operation } = this.state;
-    let result;
-    if (!operation) {
-      result = total;
-    } else if (operation === '+/-') {
-      if (!next || next === '0') {
-        result = total;
-      } else {
-        result = next;
-      }
-    } else {
-      result = !next ? operation : next;
-    }
+    const { total, next } = this.state;
 
     return (
       <>
-        <Display result={result} />
+        <Display result={next || total} />
         <ButtonPanel clickHandler={this.handleClick} />
 
       </>
