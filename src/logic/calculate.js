@@ -32,7 +32,6 @@ const Calculate = (btnName, dataObj) => {
     } else
     if (total && !operation) {
       const arr = total.split('');
-      console.log(arr);
       if (!arr.includes('.')) {
         total += '.';
       }
@@ -40,7 +39,6 @@ const Calculate = (btnName, dataObj) => {
       next = '0.';
     } else if (total && next && operation) {
       const arr1 = next.split('');
-      console.log(arr1);
       if (!arr1.includes('.')) {
         next += '.';
       }
