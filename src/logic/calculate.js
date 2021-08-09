@@ -52,6 +52,10 @@ const Calculate = (btnName, dataObj) => {
       } else if (typeof next !== 'number') {
         next += btnName;
       }
+    } else if (next === null) {
+      next = btnName;
+    } else {
+      next += btnName;
     }
   }
 
