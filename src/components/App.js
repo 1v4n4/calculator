@@ -33,8 +33,7 @@ export default class App extends React.Component {
     return (
       <>
         <Display result={next || total} />
-        <ButtonPanel clickHandler={this.handleClick} />
-
+        <ButtonPanel handleClick={this.handleClick} />
       </>
     );
   }
