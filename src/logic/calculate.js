@@ -29,15 +29,19 @@ const Calculate = (btnName, dataObj) => {
   if (btnName === '.') {
     if (!total) {
       total = '0.';
-    }
+    } else
     if (total && !operation) {
-      total += '.';
-    }
-    if (total && next && operation) {
-      next += '.';
-    }
-    if (total && operation && !next) {
+      const arr = total.split('');
+      if (!arr.includes('.')) {
+        total += '.';
+      }
+    } else if (!next) {
       next = '0.';
+    } else if (total && next && operation) {
+      const arr1 = next.split('');
+      if (!arr1.includes('.')) {
+        next += '.';
+      }
     }
   }
 
@@ -52,6 +56,10 @@ const Calculate = (btnName, dataObj) => {
       } else if (typeof next !== 'number') {
         next += btnName;
       }
+    } else if (next === null) {
+      next = btnName;
+    } else {
+      next += btnName;
     }
   }
 
@@ -65,7 +73,7 @@ const Calculate = (btnName, dataObj) => {
     if (total && next && operation) {
       total = Operate(total, operation, next);
       next = null;
-      operation = btnName;
+      operation = null;
     }
   }
 
