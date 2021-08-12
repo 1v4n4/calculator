@@ -38,7 +38,7 @@ describe('/ button', () => {
 });
 
 describe('* button', () => {
-  it('multiplies two numbers', () => {
+  it('multiplies', () => {
     const BTN = '*';
     const data = { total: '2', operation: '*', next: '3' };
     const result = Calculate(BTN, data);
@@ -47,7 +47,7 @@ describe('* button', () => {
 });
 
 describe('- button', () => {
-  it('subtracts two numbers', () => {
+  it('subtracts number', () => {
     const BTN = '=';
     const data = { total: '1', operation: '+', next: '1' };
     const result = Calculate(BTN, data);
