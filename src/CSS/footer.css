@@ -1,0 +1,20 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 5vh;
+  background: #F5913E;
+}
+
+.foot {
+  text-align: center;
+}
+
+#gitLink {
+  margin: 0 0.5rem;
+}
+
+#gitLink:hover {
+  color: #858694;
+}

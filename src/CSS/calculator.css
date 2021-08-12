@@ -1,0 +1,54 @@
+.calculatorContainer {
+  display: flex;
+  padding: 2rem 2rem 0 2rem;
+  justify-content: space-between;
+}
+
+.calculatorDiv {
+  width: 700px;
+}
+
+.button {
+  background: #E0E0E0;
+  height: 100px;
+  width: 175px;
+  border: 2px solid #BABABA;
+  font-size: 40px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.double {
+  width: 350px;
+  height: 100px;
+  background: #E0E0E0;
+  font-size: 40px;
+  font-family: 'Orbitron', sans-serif;
+  border: 2px solid #BABABA;
+}
+
+.orange {
+  background: #F5913E;
+  height: 100px;
+  width: 175px;
+  border: 2px solid #BABABA;
+  font-size: 40px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.display {
+  box-sizing: border-box;
+  background: #858694;
+  height: 100px;
+  width: 100%;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: right;
+  padding: 20px 30px;
+
+
+}
