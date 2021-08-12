@@ -1,6 +1,8 @@
 # Calculator
 
-This project is a siple calculator made with React
+Math Magicians is a calculator website made with React. Three pages - Home, Calculator, and Quotes, can be accessed by nav-bar links.
+
+![Screenshot](./public/calculator-screenshot.png)
 
 ## Built with
 - Javascript
@@ -19,7 +21,6 @@ This project is a siple calculator made with React
 - Git
 - Node.js
 - nmp
-- Yarn
 
 ### To get a local copy up and running follow these simple example steps:
 

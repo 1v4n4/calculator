@@ -2,7 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Button = ({ name, clickHandler }) => {
-  const className = name === '0' ? 'double' : 'button';
+  // eslint-disable-next-line
+  const className = name === '0' ? 'double' : ['/', '*', '+', '-', '='].includes(name) ? 'orange' : 'button';
   return (
     <button
       type="button"
