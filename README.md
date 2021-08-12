@@ -8,6 +8,8 @@ This project is a siple calculator made with React
 - HTML
 - CSS
 
+![Screenshot](./public/calculator-screenshot.png)
+
 ## Live link
 [Calculator](https://fathomless-inlet-90174.herokuapp.com/)
 
