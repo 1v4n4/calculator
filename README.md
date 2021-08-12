@@ -2,6 +2,8 @@
 
 Math Magicians is a calculator website made with React. Three pages - Home, Calculator, and Quotes, can be accessed by nav-bar links.
 
+![Screenshot](./public/calculator-screenshot.png)
+
 ## Built with
 - Javascript
 - React
