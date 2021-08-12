@@ -1,3 +1,4 @@
+import '@testing-library/jest-dom/extend-expect';
 import Calculate from '../logic/calculate';
 
 describe('AC button', () => {
