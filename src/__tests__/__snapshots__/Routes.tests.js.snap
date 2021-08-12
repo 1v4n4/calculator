@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders website correctly 1`] = `
+Array [
+  <header>
+    <div
+      className="headlineDiv"
+    >
+      <h1>
+        Math Magicians
+      </h1>
+    </div>
+    <nav>
+      <a
+        className="navLink"
+        href="/"
+      >
+        Home
+      </a>
+      <p
+        className="navLink"
+      >
+        |
+      </p>
+      <a
+        className="navLink"
+        href="/Calculator"
+      >
+        Calculator
+      </a>
+      <p
+        className="navLink"
+      >
+        |
+      </p>
+      <a
+        className="navLink"
+        href="/Quote"
+      >
+        Quote
+      </a>
+    </nav>
+  </header>,
+  <div
+    className="homeDiv"
+  >
+    <h2>
+      Welcome to our page!
+    </h2>
+    <p
+      className="paragraph"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum. Ipsu
+    </p>
+    <p
+      className="paragraph"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum. Ipsu
+    </p>
+  </div>,
+  <footer>
+    <p
+      className="foot"
+    >
+      Made by
+      <a
+        href="https://github.com/1v4n4"
+        id="gitLink"
+        rel="noreferrer"
+        target="_blank"
+      >
+         1v4n4 
+      </a>
+      © 2021
+    </p>
+  </footer>,
+]
+`;
