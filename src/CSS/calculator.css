@@ -9,10 +9,10 @@
 }
 
 .button {
-  background: #E0E0E0;
+  background: #e0e0e0;
   height: 100px;
   width: 175px;
-  border: 2px solid #BABABA;
+  border: 2px solid #bababa;
   font-size: 40px;
   font-family: 'Orbitron', sans-serif;
 }
@@ -24,17 +24,17 @@
 .double {
   width: 350px;
   height: 100px;
-  background: #E0E0E0;
+  background: #e0e0e0;
   font-size: 40px;
   font-family: 'Orbitron', sans-serif;
-  border: 2px solid #BABABA;
+  border: 2px solid #bababa;
 }
 
 .orange {
-  background: #F5913E;
+  background: #f5913e;
   height: 100px;
   width: 175px;
-  border: 2px solid #BABABA;
+  border: 2px solid #bababa;
   font-size: 40px;
   font-family: 'Orbitron', sans-serif;
 }
@@ -49,6 +49,4 @@
   font-weight: bold;
   text-align: right;
   padding: 20px 30px;
-
-
 }

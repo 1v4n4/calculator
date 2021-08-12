@@ -12,13 +12,10 @@ h1 {
 
 nav {
   display: flex;
-padding: 2.5rem 0 0 0;
+  padding: 2.5rem 0 0 0;
 }
 
 .navLink {
   margin: 0 1rem;
   font-size: 1.8rem;
 }
-
-
-
