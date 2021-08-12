@@ -11,7 +11,7 @@ Math Magicians is a calculator website made with React. Three pages - Home, Calc
 - CSS
 
 ## Live link
-[Calculator](https://fathomless-inlet-90174.herokuapp.com/)
+[Do some math!](https://fathomless-inlet-90174.herokuapp.com/)
 
 ## Getting Started
 
