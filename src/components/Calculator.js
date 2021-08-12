@@ -11,8 +11,6 @@ const Calculator = () => {
     setData(Calculate(name, data));
   };
 
-  // const { total, next } = data;
-
   return (
     <div className="calculatorContainer">
       <h2>Let’s do some math!</h2>
